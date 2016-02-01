@@ -75,7 +75,7 @@ func digitGroup2Text(group digitGroup) (ret string) {
 	tensUnits := intMod(int(group), 100)
 
 	if hundreds != 0 {
-		ret += _smallNumbers[hundreds] + " hundred"
+		ret += _smallNumbers[hundreds] + " Hundred"
 
 		if tensUnits != 0 {
 			ret += " "
